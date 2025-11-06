@@ -1,0 +1,27 @@
+/* Tech */
+.tech {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.tech-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tech-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.tech-img {
+    background-color: #4c4c4c;
+    width: 250px;
+    height: 400px;
+  
+
+}
+
