@@ -2,11 +2,23 @@
 * {
   box-sizing: border-box;
   font-family: ibm plex sans, sans-serif;
+
+  /* colors */
+    --background-color: #ffffff;
+    --img-box: #d9d9d9;
+    --font-color: #000000;
+    --explore-button: #dcdcdc;
+
+/* font sizes */
+    --h1-size: 38px;
+    --h2-size: 28px;
+    --h3-size: 18px;
+    --p-size: 16px;
+
 }
 
 body {
-    background-color: #d9d9d9;
-    line-height: 1.5;
+    background-color: var(--background-color);
     min-width: 400px;
     padding: 0;
     margin: 0;
