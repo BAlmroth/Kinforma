@@ -1,11 +1,12 @@
 /* === HERO === */
 .hero {
-    height: 1000px;
+    height: 46.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1rem;
+    background-color: var(--img-box);
 }
 
 .rotating {
@@ -19,12 +20,22 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    
+    align-items: flex-start;
+    padding: 1rem;
+    width: 100vw;
 }
 
+.hero h2 {
+    margin: 0 0 1.25rem ;
+}
 .hero button {
     margin-top: 1rem;
     border: none;
     padding: 1rem 1.5rem;
+
+}
+
+h1 {
+  font-weight: 500;
 
 }
