@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kinforma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/hero.css">
     <link rel="stylesheet" href="/css/tech.css">
+    <link rel="stylesheet" href="/css/collection.css">
     <link rel="stylesheet" href="/css/epost.css">
     <!-- en css fil för varje, så att vi inte får konflikter.
     du kan välja att skapa en css fil för varje php fil, eller 
