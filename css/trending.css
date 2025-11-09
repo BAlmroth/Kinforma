@@ -1,0 +1,46 @@
+.trending {
+  padding-left: 1.25rem;
+  padding-bottom: 4rem;
+}
+
+.trending-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.trending-image {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.trending-color-options {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.trending-color-option {
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 50%;
+  background-color: var(--circle-background);
+}
+
+.trending-img {
+  width: 21.5rem;
+  height: 26rem;
+  background-color: var(--img-box);
+}
+
+.trending-info {
+  padding-left: 2.125rem; /* it equals width of circle + gap */
+}
+
+.trending-button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: var(--explore-button);
+  font-size: var(--button-size);
+  border: none;
+}

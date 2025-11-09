@@ -9,12 +9,14 @@
   --font-color: #000000;
   --explore-button: #dcdcdc;
   --collection-background: #aeaeae;
+  --circle-background: #949494;
 
   /* font sizes */
   --h1-size: 38px;
   --h2-size: 28px;
   --h3-size: 18px;
   --p-size: 16px;
+  --button-size: 14px;
 
   /* font weight */
   --regular-font-weight: 500;

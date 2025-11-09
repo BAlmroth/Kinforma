@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/hero.css">
     <link rel="stylesheet" href="/css/tech.css">
     <link rel="stylesheet" href="/css/collection.css">
+    <link rel="stylesheet" href="/css/trending.css">
     <link rel="stylesheet" href="/css/epost.css">
     <!-- en css fil för varje, så att vi inte får konflikter.
     du kan välja att skapa en css fil för varje php fil, eller 

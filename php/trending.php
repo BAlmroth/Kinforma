@@ -1,24 +1,66 @@
   <section class="trending">
-    <div class="trending-containder">
+    <h3>Trending</h3>
+    <div class="trending-container">
+
       <div class="trending-item">
-        <div class="trending-img"> <!-- Image placeholder --></div>
-        <h3>Kortrubrik</h3>
-        <span>Explore</span>
+        <div class="trending-image">
+          <div class="trending-color-options">
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+          </div>
+          <div class="trending-img"> <!-- Image placeholder --></div>
+        </div>
+        <div class="trending-info">
+          <h3>Kortrubrik</h3>
+          <button type="button" class="trending-button">Explore</button>
+        </div>
       </div>
-      <div class="trending-item">
-        <div class="trending-img"> <!-- Image placeholder --></div>
-        <h3>Kortrubrik</h3>
-        <span>Explore</span>
+
+            <div class="trending-item">
+        <div class="trending-image">
+          <div class="trending-color-options">
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+          </div>
+          <div class="trending-img"> <!-- Image placeholder --></div>
+        </div>
+        <div class="trending-info">
+          <h3>Kortrubrik</h3>
+          <button type="button" class="trending-button">Explore</button>
+        </div>
       </div>
-      <div class="trending-item">
-        <div class="trending-img"> <!-- Image placeholder --></div>
-        <h3>Kortrubrik</h3>
-        <span>Explore</span>
+
+            <div class="trending-item">
+        <div class="trending-image">
+          <div class="trending-color-options">
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+          </div>
+          <div class="trending-img"> <!-- Image placeholder --></div>
+        </div>
+        <div class="trending-info">
+          <h3>Kortrubrik</h3>
+          <button type="button" class="trending-button">Explore</button>
+        </div>
       </div>
-      <div class="trending-item">
-        <div class="trending-img"> <!-- Image placeholder --></div>
-        <h3>Kortrubrik</h3>
-        <span>Explore</span>
+
+            <div class="trending-item">
+        <div class="trending-image">
+          <div class="trending-color-options">
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+            <div class="trending-color-option"></div>
+          </div>
+          <div class="trending-img"> <!-- Image placeholder --></div>
+        </div>
+        <div class="trending-info">
+          <h3>Kortrubrik</h3>
+          <button type="button" class="trending-button">Explore</button>
+        </div>
       </div>
+
     </div>
   </section>
