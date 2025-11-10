@@ -8,7 +8,8 @@
       </ul>
       <div class="epost-input">
         <h3>Skriv in din e-post</h3>
-        <input type="email" placeholder="e-post">
+        <label for= "email"></label>
+        <input type="email" name="email" placeholder="e-post">
         <button type="submit">Gå med</button>
       </div>
     </div>
