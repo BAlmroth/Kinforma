@@ -1,0 +1,36 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--collection-background);
+  width: 100vw;
+  padding: 7.5rem 1rem;
+  align-self: stretch;
+  margin-bottom: 4rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-img {
+  width: 11.3rem;
+  height: 11.3rem;
+  background-color: var(--img-box);
+}
