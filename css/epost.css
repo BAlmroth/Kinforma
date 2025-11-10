@@ -7,7 +7,7 @@
 }
 .epost-container {
     background-color: #d9d9d9;
-    width: 100vw;
+
 }
 .epost h2 {
 
@@ -29,9 +29,9 @@
 }
 ul{
     padding: 0 2.5rem;
-    margin: 0 auto;
-    text-align: start;
-    width: 30%;
+    margin: 0 3rem;
+    text-align: start;  
+
     
 }
 

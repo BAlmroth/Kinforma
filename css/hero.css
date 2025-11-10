@@ -1,22 +1,32 @@
 /* === HERO === */
 .hero {
-    height: 46.5rem;
+    height: 54.5rem;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1rem;
-    background-color: var(--img-box);
+    background-image: url("/images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 
 .rotating {
     height: 363px;
-    width: 207px;
-    background-color: #888;
+    width: 500px;
+    background-color: none;
     margin-top: 60px;
+        object-fit: cover;
 
 }
+.rotating img {
 
+    width: 100%;
+    width: 100%;
+}
 .hero-text{
     display: flex;
     flex-direction: column;
@@ -30,12 +40,35 @@
 }
 .hero button {
     margin-top: 1rem;
-    border: none;
     padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.054);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
+  position: relative;
+  overflow: hidden;
+}
 
+.hero button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transform: scale(1.05);
+  box-shadow:
+    0 8px 40px rgba(0, 0, 0, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
 }
 
 h1 {
   font-weight: 500;
 
 }
+
+
