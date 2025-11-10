@@ -1,6 +1,6 @@
   <section class="collection"> 
     <div class="collection-hero"> <!-- background img from dd/cd --> 
-      <h2>Underrubrik</h2>
+      <h2>Underrubrik Collection</h2>
       <h3> Kort Rubrik</h3>
       </div>
       
