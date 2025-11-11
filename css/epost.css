@@ -7,8 +7,8 @@
 }
 .epost-container {
     background-color: #d9d9d9;
-}
 
+}
 .epost h2 {
 
     padding: 1rem;
@@ -29,8 +29,9 @@
 }
 ul{
     padding: 0 2.5rem;
-    margin-top: 4rem;
-    text-align: start;
+    margin: 0 3rem;
+    text-align: start;  
+
     
 }
 
@@ -48,8 +49,6 @@ ul{
     border: 1px solid #000;
 }
 
-/* lägg till click animation */
-
-/* if (isset($_POST['email'])){
-    $email = $_POST['email'];
-   popup thank you */
+.epost h3 {
+    margin: 2.5rem;
+}

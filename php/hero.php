@@ -1,7 +1,7 @@
 <section class="hero">
 
     <div class="rotating"> 
-
+      <img src="/images/redpuffer.png" alt="red pufferjacket">
     </div>
     
     <div class="hero-text">

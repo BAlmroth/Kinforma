@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-    <section>
+    <section class="foot">
         <div class="footer-links">
             <div class="shop">
                 <h3>Shop</h3>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="copy">
-            <p class="footer">  &copy; 2025 Kinforma. Alla rättigheter förbehållna</p>
+            <p>  &copy; 2025 Kinforma. Alla rättigheter förbehållna</p>
             <p>Privacy Policy</p>
             <p>Terms of Service</p>
         </div>
