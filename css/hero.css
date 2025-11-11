@@ -19,7 +19,7 @@
     width: 500px;
     background-color: none;
     margin-top: 60px;
-        object-fit: cover;
+    object-fit: contain;
 
 }
 .rotating img {
