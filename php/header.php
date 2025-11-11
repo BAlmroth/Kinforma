@@ -10,6 +10,7 @@
      <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/values.css">
     <link rel="stylesheet" href="/css/tech.css">
     <link rel="stylesheet" href="/css/collection.css">
     <link rel="stylesheet" href="/css/trending.css">
