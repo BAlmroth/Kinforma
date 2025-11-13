@@ -1,7 +1,7 @@
   <section class="values">
     <div class="value">
       <div class="value-img">
-        <img src="/images/back.jpg" alt="silver jacket, mountains in background ">
+        <img src="images/back.jpg" alt="silver jacket, mountains in background ">
       </div>
       <div class="value-text">
         <h2>Kinforma</h2>
@@ -10,7 +10,7 @@
     </div>
     <div class="value">
       <div class="value-img">
-        <img src="/images/back.jpg" alt="silver jacket, mountains in background ">
+        <img src="images/back.jpg" alt="silver jacket, mountains in background ">
       </div>
       <div class="value-text">
         <h2>Kinforma</h2>
@@ -19,7 +19,7 @@
     </div>
     <div class="value">
       <div class="value-img">
-        <img src="/images/back.jpg" alt="silver jacket, mountains in background ">
+        <img src="images/back.jpg" alt="silver jacket, mountains in background ">
       </div>
       <div class="value-text">
         <h2>Kinforma</h2>
