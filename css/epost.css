@@ -2,28 +2,22 @@
 .epost {
     background-color: #fafafa;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 1rem;
     margin: 0;
 }
 .epost-container {
     background-color: #d9d9d9;
-}
 
+}
 .epost h2 {
-    font-size: 2rem;
-    padding: 2rem;
+
+    padding: 1rem;
 }
 
-.epost h3 {
-    font-weight: 400;
-    color: #555;
-    margin-bottom: 1rem;
-    padding: 0 2rem;
-}
 
 .epost-input {
     margin-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .epost input {
@@ -34,7 +28,11 @@
     margin-bottom: 0.8rem;
 }
 ul{
-    padding: 0 5rem;
+    padding: 0 2.5rem;
+    margin: 0 3rem;
+    text-align: start;  
+
+    
 }
 
 .epost button {
@@ -45,4 +43,12 @@ ul{
     border: none;
     padding: 0.8rem 1.4rem;
     border-radius: 4px;
+}
+
+.epost input {
+    border: 1px solid #000;
+}
+
+.epost h3 {
+    margin: 2.5rem;
 }
