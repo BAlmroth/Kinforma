@@ -16,31 +16,39 @@
 
 .rotating {
     height: 363px;
-    width: 500px;
-    background-color: none;
-    margin-top: 60px;
-    object-fit: contain;
+    width: 400px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .rotating img {
 
-    width: 100%;
-    width: 100%;
-}
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    width: 100vw;
+    width: 70%;
+    height: auto;
 }
 
-.hero h2 {
-    margin: 0 0 1.25rem ;
+.hero-text {
+    padding: 1rem;
+    width: 100vw;
+    margin-top: 3rem;
 }
+
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 5rem 1.5rem;
+
+
+}
+
 .hero button {
     margin-top: 1rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     background: rgba(255, 255, 255, 0.054);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
