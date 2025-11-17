@@ -3,8 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
-    max-height: 800px;
-    min-height: 402px;
+    height: 402px;
+  
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
