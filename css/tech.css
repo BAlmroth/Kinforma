@@ -1,12 +1,23 @@
 .tech {
     background-image: url("../images/fabric.png");
-    height: 490px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    max-height: 490px;
     color: rgb(255, 255, 255);
-        min-width: 402px;
+    min-height: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 70px;
+}
+
+.tech-content {
+    margin: 1rem;
 }
 
 .tech-text {
-    margin: 70% 30px 20px;
+    margin: 20 px 30px 20px;
 
 }
 
@@ -14,7 +25,7 @@
 .tech-buttons {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: space-between;
 }
 
 .tech-buttons button {
@@ -23,8 +34,11 @@
     border: none;
 }
 
-.explore {
-    margin: 0 90px 0 40px;
+.algae-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 h2 {
@@ -35,4 +49,3 @@ h3 {
     font-size: var(--h3-size);
 }
 
-/* få alge att vara fast i häger hörn */
