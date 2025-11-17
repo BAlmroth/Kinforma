@@ -3,17 +3,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
-    max-height: 490px;
-    color: rgb(255, 255, 255);
+    max-height: 800px;
     min-height: 402px;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-top: 70px;
+    margin: 70px 0 20px;
 }
 
 .tech-content {
     margin: 1rem;
+    transition: margin 2s ease;
 }
 
 .tech-text {
@@ -49,3 +50,14 @@ h3 {
     font-size: var(--h3-size);
 }
 
+
+@media (min-width: 768px) {
+
+    .tech {
+        max-height: 800px;
+    }
+
+    .tech-content {
+        margin: 0 30px 40px;
+    }
+}

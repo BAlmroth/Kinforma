@@ -18,7 +18,6 @@
 .rotating {
     height: 363px;
     width: 402px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,3 +80,13 @@ h1 {
 }
 
 
+/* media */
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("../images/hero-bground.png"), url("../images/sand.png");
+    background-size: 40% 100%, 60% 100%;
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+  } 
+}
