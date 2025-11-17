@@ -1,3 +1,11 @@
+.carousel {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+}
+
 .trending {
   padding-left: 1.25rem;
   padding-bottom: 4rem;
@@ -8,16 +16,34 @@
   gap: 1rem;
 }
 
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel {
+  scrollbar-width: none;
+}
+
+.trending-item {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+}
+
 .trending-image {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  position: relative;
+  width: fit-content;
 }
 
 .trending-color-options {
   display: flex;
   flex-direction: column;
   gap: 13px;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 .trending-color-option {
@@ -33,8 +59,9 @@
   background-color: var(--img-box);
 }
 
-.trending-info {
-  padding-left: 2.125rem; /* it equals width of circle + gap */
+.trending-info > h3 {
+  text-transform: uppercase;
+  font-family: "Belleza", sans-serif;
 }
 
 .trending-button {
