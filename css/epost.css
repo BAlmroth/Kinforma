@@ -1,14 +1,11 @@
 /* Epost */
 .epost {
-    background-color: #fafafa;
+    background-image: url("../images/hands.png");
     text-align: center;
     padding: 1rem;
     margin: 0;
 }
-.epost-container {
-    background-color: #d9d9d9;
 
-}
 .epost h2 {
 
     padding: 1rem;

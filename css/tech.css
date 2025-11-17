@@ -1,28 +1,38 @@
-/* Tech */
 .tech {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+    background-image: url("../images/fabric.png");
+    height: 490px;
+    color: rgb(255, 255, 255);
+        min-width: 402px;
 }
 
-.tech-box {
+.tech-text {
+    margin: 70% 30px 20px;
+
+}
+
+
+.tech-buttons {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
-    margin: 1rem;
 }
 
-.tech-imgs {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-.tech-img {
-    background-color: #4c4c4c;
-    width: 250px;
-    height: 400px;
-  
-
+.tech-buttons button {
+    padding: 8px 17px;
+    border-radius: 25px;
+    border: none;
 }
 
+.explore {
+    margin: 0 90px 0 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: var(--h3-size);
+}
+
+/* få alge att vara fast i häger hörn */

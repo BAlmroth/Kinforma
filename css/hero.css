@@ -2,6 +2,7 @@
 .hero {
     height: 54.5rem;
     width: 100vw;
+    min-width: 402px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +17,7 @@
 
 .rotating {
     height: 363px;
-    width: 400px;
+    width: 402px;
 
     display: flex;
     justify-content: center;
