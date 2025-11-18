@@ -1,0 +1,19 @@
+header {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
