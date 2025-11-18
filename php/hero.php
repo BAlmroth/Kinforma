@@ -1,6 +1,7 @@
 <section class="hero">
   <div class="hero-text">
     <h1>KINFORMA</h1>
+    <h2>FRAMTIDENS MODE, IDAG.</h2>
   </div>
 
     <div class="rotating"> 
