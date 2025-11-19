@@ -3,8 +3,8 @@
       <div class="exclusive">
         <span> Exclusive membership </span>
       </div>
-      <h2>Gå med i Kinforma Circle.</h2>
-      <h3>Köp ett plagg – få tillgång till livslång omsorg, förköp och rösträtt i nästa släpp.</h3>
+      <h2>JOIN OUR KINMUNITY</h2>
+      <p>Köp ett plagg – få tillgång till livslång omsorg, förköp och rösträtt i nästa släpp.</p>
       <div class="epost-ul">
         <ul>
           <li>Påverka designen: rösta på färger, moduler och drops.</li>
