@@ -3,8 +3,8 @@
       <div class="exclusive">
         <span> Exclusive membership </span>
       </div>
-      <h2>JOIN OUR KINMUNITY</h2>
-      <p>Köp ett plagg – få tillgång till livslång omsorg, förköp och rösträtt i nästa släpp.</p>
+      <h2>Gå med i Kinforma Circle.</h2>
+      <h3>Köp ett plagg – få tillgång till livslång omsorg, förköp och rösträtt i nästa släpp.</h3>
       <div class="epost-ul">
         <ul>
           <li>Påverka designen: rösta på färger, moduler och drops.</li>
@@ -17,6 +17,7 @@
         <label for= "email"></label>
         <input type="email" name="email" placeholder="namn.efternamn@kinmail.com">
         <button type="submit">Gå med</button>
+        </form>
         <?php 
 
         if (isset($_POST['email']) && $_POST['email'] != ""){
@@ -24,7 +25,7 @@
         <p> <?= "Tack för att du vill vara en del av vår resa! Du kommer att få ett välkomstmail till $email inom kort.";?> </p>
         <?php }
         ?>  
-      </div>
+      </div> 
     </div>
   </section> 
 

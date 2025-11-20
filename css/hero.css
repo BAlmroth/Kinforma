@@ -1,6 +1,7 @@
 /* === HERO === */
 .hero {
     height: 54.5rem;
+    color: #fff;
     width: 100vw;
     min-width: 402px;
     display: flex;
@@ -50,7 +51,7 @@
   flex-wrap: nowrap;
   gap: 1rem;
   align-items: center;
-
+color: #fff;
 }
 
 .hero button {

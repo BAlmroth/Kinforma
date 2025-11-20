@@ -40,9 +40,12 @@
           <a href="">
             <img class="profile" src="images/profile.svg" alt="profile icon">
           </a>
-          <a href="">cart</a>
+          <a href="">
+            <img class="cart" src="images/cart.svg" alt="cart icon">
+          </a>
           <a href="">
             <img class="hamburger" src="images/hamburger.svg" alt="hamburger icon">
           </a>
         </nav>
+
     </header>

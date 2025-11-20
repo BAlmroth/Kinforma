@@ -77,9 +77,12 @@
 
 
 .epost h3 {
-    margin: 2.5rem;
+    margin: 3rem 0 1rem;
 }
 
+.epost a {
+    font-size: 13px;
+}
 .exclusive {
     display: flex;
     justify-content: right;
@@ -92,3 +95,4 @@
     border: 1px solid white;
     border-radius: 20px;
 }
+
