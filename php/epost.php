@@ -17,6 +17,7 @@
         <label for= "email"></label>
         <input type="email" name="email" placeholder="namn.efternamn@kinmail.com">
         <button type="submit">Gå med</button>
+        </form>
         <?php 
 
         if (isset($_POST['email']) && $_POST['email'] != ""){
@@ -24,7 +25,7 @@
         <p> <?= "Tack för att du vill vara en del av vår resa! Du kommer att få ett välkomstmail till $email inom kort.";?> </p>
         <?php }
         ?>  
-      </div>
+      </div> 
     </div>
   </section> 
 

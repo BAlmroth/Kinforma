@@ -1,7 +1,8 @@
   <section class="values">
     <div class="value">
       <div class="value-text">
-        <p>På Kinforma tror vi på färre, bättre plagg. Vår drivkraft är att höja värdet på det du redan äger – genom design som håller, transparenta beslut och tjänster som förlänger livslängden. Vi väljer långsiktighet framför trender, ansvar före genvägar och relationer före transaktioner. Exklusivitet för oss är inte överflöd, utan omsorg: om människor, material och tid. </p>
+        <h3>BIOBASERAT TYG FÖR TUFFT KLIMAT</h3>
+        <p>Materialet styrs på molekylnivå för att skapa ett starkt, skyddande tyg. Biobaserade polymerer formas till slitstarka trådar, och en torr plasmabehandling gör ytan vattenavvisande men andande. Vävens struktur fångar luftfickor mellan fibrerna, vilket ger låg vikt och effektiv isolering även i sträng kyla. </p>
       </div>
       <div class="value-info">
           <img src="images/cloud.svg" alt="">

@@ -43,14 +43,28 @@
 .epost ul{
   
     
-    margin: 0 3rem;
+    margin: 3rem 3rem 0;
     text-align: start;
     max-width: 400px;
+    padding: 16px 0px 0px 40px;
 
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
+  position: relative;
+  overflow: hidden;
 }
 
 .epost li {
     margin-bottom: 1rem;
+    font-weight: var(--regular-font-weight);
 }
 
 .epost button {
@@ -63,9 +77,12 @@
 
 
 .epost h3 {
-    margin: 2.5rem;
+    margin: 3rem 0 1rem;
 }
 
+.epost a {
+    font-size: 13px;
+}
 .exclusive {
     display: flex;
     justify-content: right;
@@ -78,3 +95,4 @@
     border: 1px solid white;
     border-radius: 20px;
 }
+
