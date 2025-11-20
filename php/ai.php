@@ -1,8 +1,7 @@
-  <section class="AI-design">
-    <div class="AI-container">
-      <div class="AI-img"> <!-- Image placeholder --></div>
-      <h2>Bygg ditt plagg</h2>
+  <section class="AI-container">
+    <div class="AI-content">
+      <h2>PERSONALIZE YOUR CLOTHING</h2>
       <h3>Lägg till din personliga touch</h3>
-      <span>Explore</span>
+      <button>Explore</button>
     </div>
   </section>

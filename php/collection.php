@@ -1,45 +1,42 @@
   <section class="collection">
-    <div class="collection-hero"> <!-- background img from dd/cd -->
-      <h2>Underrubrik Collection</h2>
-      <h3> Kort Rubrik</h3>
-    </div>
+    <h2 class="collection-title">KOLLEKTIONEN</h2>
 
     <div class="products">
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/Ytterkläder.png" alt="Ytterkläder">
         </div>
-        <h3>Outerwear</h3>
+        <h3>YTTERKLÄDER</h3>
       </div>
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/Kläder.png" alt="Kläder">
         </div>
-        <h3>Clothing</h3>
+        <h3>KLÄDER</h3>
       </div>
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/Merch.png" alt="Merch">
         </div>
-        <h3>Merch</h3>
+        <h3>MERCH</h3>
       </div>
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/Accessoarer.png" alt="Accessoarer">
         </div>
-        <h3>Accessories</h3>
+        <h3>ACCESSOARER</h3>
       </div>
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/För medlemmar.png" alt="För medlemmar">
         </div>
-        <h3>Members only</h3>
+        <h3>FÖR MEDLEMMAR</h3>
       </div>
       <div class="product">
         <div class="product-img">
-          <!-- Image placeholder -->
+          <img src="/images/Skönhet.png" alt="Skönhet">
         </div>
-        <h3>Beauty</h3>
+        <h3>SKÖNHET</h3>
       </div>
     </div>
   </section>
