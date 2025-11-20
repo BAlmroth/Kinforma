@@ -1,31 +1,56 @@
-.foot {
-    background-color: #BC9C74;
-}
-.footer-links {
-    display: flex;
-    padding: 2rem;
-    gap: 2rem;
-    border-bottom: 1px solid black;
-    justify-content: center;
+footer {
+    background-color: #D8E7F0;
+    padding: 1rem;
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: var(--font-color);
-    font-weight: 100;
-    display: block;
-    margin-top: 1rem;
-    
-}
-
-.copy {
+.upper-foot, .lower-foot, .links {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: small;
+
 }
 
-.shop, .company, .support {
-    max-width: 9rem;
+.links {
+    margin-bottom: 1rem;
+}
+.link, .copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.link button {
+    font-weight: var(--regular-font-weight);
+}
+
+.newsletter {
+    margin-bottom: 5rem;
+}
+.mail input {
+    background-color: transparent;
+    box-shadow: none;
+    border: solid black;
+    border-width: 0px 0px 1px 0px;
+    width: 75vw;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.useragreements {
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+
+
+.payments {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 2rem 0 0.5rem;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-weight: 200;
 }
