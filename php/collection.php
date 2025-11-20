@@ -1,8 +1,5 @@
   <section class="collection">
-    <div class="collection-hero"> <!-- background img from dd/cd -->
-      <h2>Kollektionen</h2>
-      <h3> Kort Rubrik</h3>
-    </div>
+    <h2 class="collection-title">KOLLEKTIONEN</h2>
 
     <div class="products">
       <div class="product">
