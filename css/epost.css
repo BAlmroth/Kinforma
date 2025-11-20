@@ -1,14 +1,22 @@
 /* Epost */
 .epost {
-    background-color: #fafafa;
+    background-image: url("../images/hands.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
     text-align: center;
     padding: 1rem;
     margin: 0;
-}
-.epost-container {
-    background-color: #d9d9d9;
+    color: white;
 
 }
+
+.epost-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .epost h2 {
 
     padding: 1rem;
@@ -18,37 +26,73 @@
 .epost-input {
     margin-top: 1.5rem;
     padding: 1rem;
+    width: 100%;
 }
 
 .epost input {
     padding: 0.8rem;
-    border: 1px solid #ccc;
     width: 80%;
     max-width: 300px;
     margin-bottom: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    color: black;
 }
-ul{
-    padding: 0 2.5rem;
-    margin: 0 3rem;
-    text-align: start;  
 
+
+.epost ul{
+  
     
+    margin: 3rem 3rem 0;
+    text-align: start;
+    max-width: 400px;
+    padding: 16px 0px 0px 40px;
+
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
+  position: relative;
+  overflow: hidden;
+}
+
+.epost li {
+    margin-bottom: 1rem;
+    font-weight: var(--regular-font-weight);
 }
 
 .epost button {
     display: block;
     margin: 0 auto;
-    background: black;
-    color: white;
     border: none;
     padding: 0.8rem 1.4rem;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
-.epost input {
-    border: 1px solid #000;
-}
 
 .epost h3 {
-    margin: 2.5rem;
+    margin: 3rem 0 1rem;
 }
+
+.epost a {
+    font-size: 13px;
+}
+.exclusive {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+}
+
+.exclusive span {
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+

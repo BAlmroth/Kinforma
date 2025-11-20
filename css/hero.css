@@ -1,50 +1,66 @@
 /* === HERO === */
 .hero {
     height: 54.5rem;
+    color: #fff;
     width: 100vw;
+    min-width: 402px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1rem;
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/hero-bground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -88px;
 }
 
 
 .rotating {
     height: 363px;
-    width: 500px;
-    background-color: none;
-    margin-top: 60px;
-    object-fit: contain;
-
+    width: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .rotating img {
 
-    width: 100%;
-    width: 100%;
-}
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    width: 100vw;
+    width: 70%;
+    height: auto;
 }
 
-.hero h2 {
-    margin: 0 0 1.25rem ;
+.hero-text {
+    padding: 1rem;
+    width: 100vw;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
+.hero h1 {
+  margin-bottom: 0;
+}
+
+
+
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+color: #fff;
+}
+
 .hero button {
-    margin-top: 1rem;
-    padding: 1rem 1.5rem;
+    margin-top: 3rem;
+    padding: 1rem;
     background: rgba(255, 255, 255, 0.054);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
-    border-radius: 20px;
+    border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 
     0 8px 32px rgba(0, 0, 0, 0.1),
@@ -64,11 +80,6 @@
     0 8px 40px rgba(0, 0, 0, 0.2),
     inset 0 1px 1px rgba(255, 255, 255, 0.6);
   transition: all 0.3s ease;
+  
 }
-
-h1 {
-  font-weight: 500;
-
-}
-
 
