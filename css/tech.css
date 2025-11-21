@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position: center;  
     height: 402px;
-  
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -15,49 +14,59 @@
 .tech-content {
     margin: 1rem;
     transition: margin 2s ease;
+
 }
 
 .tech-text {
-    margin: 20 px 30px 20px;
+    margin: 20px 30px 20px;
 
 }
 
-
-.tech-buttons {
+.tech-button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
-.tech-buttons button {
-    padding: 8px 17px;
-    border-radius: 25px;
+.tech button {
+    padding:12px 24px;
+    border-radius: 10px;
     border: none;
+    margin-top: 2rem;
 }
 
-.algae-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-}
-
-h2 {
+.tech h2 {
     font-size: 30px;
+    font-weight: 300;
 }
 
-h3 {
+.tech h3 {
     font-size: var(--h3-size);
+    font-weight: 300;
 }
 
 
 @media (min-width: 768px) {
 
     .tech {
-        max-height: 800px;
+        height: 800px;
     }
 
     .tech-content {
-        margin: 0 30px 40px;
+        margin: 0 3rem 8rem ;
+    }
+
+    .tech h2 {
+        font-size: 64px;
+    }
+
+    .tech h3 {
+        font-size: 38px;
+        width: 90%;
+        margin: 0;
+    }
+    .tech-content {
+        height: 40%;
     }
 }
