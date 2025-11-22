@@ -36,18 +36,18 @@
             </div>
             <div class="socials">
                 <h3>Följ oss</h3>
-                <img src="/images/instagram.svg" alt="instagram icon">
-                <img src="/images/facebook.svg" alt="facebook icon">
-                <img src="/images/linkedin.svg" alt="linkdin icon">
+                <img src="images/instagram.svg" alt="instagram icon">
+                <img src="images/facebook.svg" alt="facebook icon">
+                <img src="images/linkedin.svg" alt="linkdin icon">
             </div>
         </div>
         <div class="lower-foot">
             <div class="payments">
                 <h3>SE/SEK</h3>
-                <img src="/images/glob.svg" alt="sek icon">
-                <img src="/images/klarna.svg" alt="klarna icon">
-                <img src="/images/visa.svg" alt="visa icon">
-                <img src="/images/master.svg" alt="mastercard icon">
+                <img src="images/glob.svg" alt="sek icon">
+                <img src="images/klarna.svg" alt="klarna icon">
+                <img src="images/visa.svg" alt="visa icon">
+                <img src="images/master.svg" alt="mastercard icon">
             </div>
             <div class="copy">
                 <small>&copy; Kinforma</small>
