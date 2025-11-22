@@ -1,16 +1,15 @@
 <section class="hero">
   <div class="hero-text">
     <h1>KINFORMA</h1>
-    <h2>FRAMTIDENS MODE, IDAG.</h2>
+    <h2>Framtidens mode, idag.</h2>
+    <h3>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten</h3>
   </div>
+  
 
-    <div class="rotating"> 
-      <img src="images/greyjacket.png" alt="pufferjacket">
-    </div>
-    
+
     <div class="hero-buttons">
-      <button type="button">Explore Collection</button>
-      <button type="button">About Kinforma</button>
+      <button type="button">UTFORKSA KOLLEKTIONEN</button>
+      <button type="button">OM KINFORMA</button>
     </div>
 
   </section>

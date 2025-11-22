@@ -8,41 +8,30 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
     gap: 1rem;
-    background-image: url("../images/hero-bground.png");
+    background-image: url("../images/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: -88px;
+  
 }
 
 
-.rotating {
-    height: 363px;
-    width: 402px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rotating img {
-
-    width: 70%;
-    height: auto;
-}
 
 .hero-text {
     padding: 1rem;
-    width: 100vw;
+    width: auto;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
-.hero h1 {
-  margin-bottom: 0;
-}
 
+.hero h2 {
+  font-weight: 300;
+}
 
 
 .hero-buttons {
@@ -51,11 +40,12 @@
   flex-wrap: nowrap;
   gap: 1rem;
   align-items: center;
-color: #fff;
+  color: #fff;
+  margin-bottom: 2rem;
 }
 
 .hero button {
-    margin-top: 3rem;
+  color: #fff;
     padding: 1rem;
     background: rgba(255, 255, 255, 0.054);
     backdrop-filter: blur(9px);
@@ -81,5 +71,43 @@ color: #fff;
     inset 0 1px 1px rgba(255, 255, 255, 0.6);
   transition: all 0.3s ease;
   
+}
+
+.hero h2 {
+  display: block;
+}
+
+.hero h3 {
+  display: none;
+      /* padding-left: 4px; as skum spacing bugg som jag inte lyckas lösa. */
+}
+
+@media (min-width: 768px) {
+
+  .hero h2 {
+    display: none;
+  }
+
+    .hero h3 {
+    display: block;
+    width: 70%;
+    font-size: 38px;
+    font-weight: 200;
+  }
+
+  .hero, .hero-text{
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+  }
+
+  .hero-buttons {
+    margin-left: 2rem;
+  }
+
+  .hero h1, .hero h3 {
+    margin: 0;
+  }
 }
 
