@@ -59,7 +59,7 @@
 .trending-img {
   width: 21.5rem;
   height: 26rem;
-  background-image: url("/images/Trending-jacka.png");
+  background-image: url("../images/Trending-jacka.png");
   background-size: cover;
   background-position: center;
 }
