@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("/images/Ai-tool-image.jpg");
+  background-image: url("/images/Ai-tool-background.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .AI-content {
-  color: white;
+  color: black;
 }
 
 .AI-content h2 {
