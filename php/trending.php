@@ -13,11 +13,11 @@
             </div>
             <div class="trending-img"
               data-images='[
-        "/images/trending/green-jacket-left.png",
-        "/images/trending/green-jacket-left-3-4.png",
-        "/images/trending/green-jacket-front.png",
-        "/images/trending/green-jacket-right-3-4.png",
-        "/images/trending/green-jacket-right.png"
+        "images/trending/green-jacket-left.png",
+        "images/trending/green-jacket-left-3-4.png",
+        "images/trending/green-jacket-front.png",
+        "images/trending/green-jacket-right-3-4.png",
+        "images/trending/green-jacket-right.png"
     ]'>
 
             </div>
@@ -38,13 +38,13 @@
             </div>
             <div class="trending-img"
               data-images='[
-        "/images/trending/yellow-knitted-left.png",
-        "/images/trending/yellow-knitted-left-3-4.png",
-        "/images/trending/yellow-knitted-front.png",
-        "/images/trending/yellow-knitted-right-3-4.png",
-        "/images/trending/yellow-knitted-right.png"
+        "images/trending/yellow-knitted-left.png",
+        "images/trending/yellow-knitted-left-3-4.png",
+        "images/trending/yellow-knitted-front.png",
+        "images/trending/yellow-knitted-right-3-4.png",
+        "images/trending/yellow-knitted-right.png"
       ]'
-              data-default="/images/trending/Trending-knitted-yellow.png">
+              data-default="images/trending/Trending-knitted-yellow.png">
             </div>
           </div>
           <div class="trending-info">
