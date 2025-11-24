@@ -111,11 +111,8 @@
 }
 
 .trending-button {
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  background-color: var(--explore-button);
-  font-size: var(--button-size);
-  border: none;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+  font-size: 14px;
 }
 
 .second-card .trending-img {

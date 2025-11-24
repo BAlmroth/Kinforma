@@ -16,7 +16,7 @@
         <form action="#epostsub" method="post">
         <label for= "email"></label>
         <input type="email" name="email" placeholder="namn.efternamn@kinmail.com">
-        <button type="submit">Gå med</button>
+        <button type="submit">SKICKA <img src="images/dot.svg"></button>
         </form>
         <?php 
 

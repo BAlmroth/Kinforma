@@ -15,10 +15,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-top: -88px;
-  
 }
-
-
 
 .hero-text {
     padding: 1rem;
@@ -30,88 +27,63 @@
 }
 
 .hero-buttons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 1rem;
-  align-items: center;
-  color: #fff;
-  margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .hero button {
-  color: #fff;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.054);
-  backdrop-filter: blur(9px);
-  -webkit-backdrop-filter: blur(9px);
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 
-  0 8px 32px rgba(0, 0, 0, 0.1),
-  inset 0 1px 0 rgba(255, 255, 255, 0.5),
-  inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-  inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
-.hero button:hover {
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  transform: scale(1.05);
-  box-shadow:
-  0 8px 40px rgba(0, 0, 0, 0.2),
-  inset 0 1px 1px rgba(255, 255, 255, 0.6);
-  transition: all 0.3s ease;
-  
-}
-.hero h1, span {
-      font-family: "Belleza", sans-serif;
-}
+.hero h1,
 .hero span {
-  color: var(--solar);
-  
+    font-family: "Belleza", sans-serif;
 }
 
+.hero span {
+    color: var(--solar);
+}
 
 .hero h2 {
-  display: block;
-  font-weight: 300;
+    display: block;
+    font-weight: 300;
 }
 
 .hero h3 {
-  display: none;
-  margin-left: 0.5rem
+    display: none;
+    margin-left: 0.5rem;
 }
 
 @media (min-width: 768px) {
 
-  .hero h1 {
-    margin: 0;
-  }
+    .hero h1 {
+        margin: 4rem 0;
+    }
 
-  .hero h2 {
-    /* display: none; */
-    margin: 0 0 1rem 0.5rem;
-  }
+    .hero h2 {
+        margin: 0 0 1rem 0.5rem;
+    }
 
     .hero h3 {
-    display: block;
-    width: 70%;
-    font-size: 38px;
-    font-weight: 200;
-  }
+        display: block;
+        width: 70%;
+        font-size: 38px;
+        font-weight: 200;
+    }
 
-  .hero, .hero-text{
-    align-items: flex-start;
-    justify-content: center;
-    text-align: left;
-    padding: 2rem;
-  }
+    .hero,
+    .hero-text {
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        padding: 2rem;
+    }
 
-  .hero-buttons {
-    margin-left: 2rem;
-  }
+    .hero-buttons {
+        margin-left: 2rem;
+    }
 }

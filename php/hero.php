@@ -8,8 +8,8 @@
 
 
     <div class="hero-buttons">
-      <button type="button">UTFORKSA KOLLEKTIONEN</button>
-      <button type="button">OM KINFORMA</button>
+      <button type="button">UTFORKSA KOLLEKTIONEN <img src="images/dot.svg"> </button>
+      <button type="button">OM KINFORMA <img src="images/dot.svg"> </button>
     </div>
 
   </section>
