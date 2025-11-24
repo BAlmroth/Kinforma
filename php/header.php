@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/slogan.css">
   <link rel="stylesheet" href="css/values.css">
   <link rel="stylesheet" href="css/tech.css">
+  <link rel="stylesheet" href="css/setting.css">
   <link rel="stylesheet" href="css/collection.css">
   <link rel="stylesheet" href="css/trending.css">
   <link rel="stylesheet" href="css/ai.css">

@@ -18,4 +18,20 @@
 
 .slogan img {
     margin: 0.5rem;
+
+}
+
+@media (min-width: 768px) {
+.slogan img {
+    width: 65px;
+    height: auto;
+}
+
+.slogan {
+    height: 275px;
+    margin: 1.125rem 0 2rem;
+}
+.slogan h2, h3 {
+    margin: 0;
+}
 }
