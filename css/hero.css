@@ -29,11 +29,6 @@
     flex-wrap: nowrap;
 }
 
-.hero h2 {
-  font-weight: 300;
-}
-
-
 .hero-buttons {
   display: flex;
   flex-direction: row;
@@ -46,17 +41,17 @@
 
 .hero button {
   color: #fff;
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.054);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-    border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.054);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+  0 8px 32px rgba(0, 0, 0, 0.1),
+  inset 0 1px 0 rgba(255, 255, 255, 0.5),
+  inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+  inset 0 0 18px 9px rgba(255, 255, 255, 0.328);
   position: relative;
   overflow: hidden;
 }
@@ -67,25 +62,39 @@
   -webkit-backdrop-filter: blur(15px);
   transform: scale(1.05);
   box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.2),
-    inset 0 1px 1px rgba(255, 255, 255, 0.6);
+  0 8px 40px rgba(0, 0, 0, 0.2),
+  inset 0 1px 1px rgba(255, 255, 255, 0.6);
   transition: all 0.3s ease;
   
 }
+.hero h1, span {
+      font-family: "Belleza", sans-serif;
+}
+.hero span {
+  color: var(--solar);
+  
+}
+
 
 .hero h2 {
   display: block;
+  font-weight: 300;
 }
 
 .hero h3 {
   display: none;
-      /* padding-left: 4px; as skum spacing bugg som jag inte lyckas lösa. */
+  margin-left: 0.5rem
 }
 
 @media (min-width: 768px) {
 
+  .hero h1 {
+    margin: 0;
+  }
+
   .hero h2 {
-    display: none;
+    /* display: none; */
+    margin: 0 0 1rem 0.5rem;
   }
 
     .hero h3 {
@@ -105,9 +114,4 @@
   .hero-buttons {
     margin-left: 2rem;
   }
-
-  .hero h1, .hero h3 {
-    margin: 0;
-  }
 }
-
