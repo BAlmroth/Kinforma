@@ -11,13 +11,26 @@
   --explore-button: #dcdcdc;
   --collection-background: #aeaeae;
   --circle-background: #949494;
+  --solar: #F90;
 
   /* font sizes */
+
+  /* mobile */
   --h1-size: 64px;
-  --h2-size: 28px;
-  --h3-size: 20px;
+  --h2-size: 44px;
+  --h3-size: 28px;
+  --h4-size: 34px;
+  --h5-size: 20px;
   --p-size: 16px;
   --button-size: 14px;
+
+  /* desktop */
+  --h1-desktop: 96px;
+  --h2-desktop: 64px;
+  --h3-desktop: 38px;
+  --h4-desktop: 48px;
+  --h5-desktop: 24px;
+  --p-desktop: 24px;
 
   /* font weight */
   --regular-font-weight: 400;
@@ -41,6 +54,7 @@ main {
   flex-direction: column;
 }
 
+/* mobile */
 h1 {
   font-size: var(--h1-size);
 }
@@ -53,6 +67,33 @@ h3 {
   font-size: var(--h3-size);
 }
 
+h4 {
+
+font-size: var(--h4-size);
+}
 p {
   font-size: var(--p-size);
+}
+
+@media (min-width: 768px) {
+
+h1 {
+  font-size: var(--h1-desktop);
+}    
+h2 {
+  font-size: var(--h2-desktop);
+}    
+h3 {
+  font-size: var(--h3-desktop);
+}    
+h4 {
+  font-size: var(--h4-desktop);
+}    
+h5 {
+  font-size: var(--h5-desktop);
+}    
+p {
+  font-size: var(--p-desktop);
+
+}    
 }

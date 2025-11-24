@@ -5,6 +5,7 @@ require __DIR__ . '/php/header.php';
 <main>
 <?php 
 require __DIR__ . '/php/hero.php';
+require __DIR__ . '/php/slogan.php';
 require __DIR__ . '/php/values.php';
 require __DIR__ . '/php/tech.php';
 require __DIR__ . '/php/collection.php';

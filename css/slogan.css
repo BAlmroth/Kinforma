@@ -1,0 +1,21 @@
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.slogan h2{
+    margin: 0.5rem;
+
+}
+
+.slogan h3 {
+    width: 80%;
+}
+
+.slogan img {
+    margin: 0.5rem;
+}
