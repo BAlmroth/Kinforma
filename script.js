@@ -1,15 +1,4 @@
-//nav
-window.addEventListener("scroll", function() {
-    const header = document.querySelector("header");
-    if (window.scrollY > 810) {
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
-    }
-});
-
-
-// script for trending carousel
+// nav bar
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
   if (window.scrollY > 810) {
