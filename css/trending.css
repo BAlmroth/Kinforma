@@ -56,12 +56,53 @@
   background-color: var(--circle-background);
 }
 
+.first-card .trending-color-option:nth-child(1) {
+  background-color: #6b6c40;
+}
+.first-card .trending-color-option:nth-child(2) {
+  background-color: #ff9900;
+}
+.first-card .trending-color-option:nth-child(3) {
+  background-color: #000000;
+}
+
+.second-card .trending-color-option:nth-child(1) {
+  background-color: #ff9900;
+}
+.second-card .trending-color-option:nth-child(2) {
+  background-color: #bcc199;
+}
+
+.second-card .trending-color-option:nth-child(3) {
+  background-color: #427ac7;
+}
+
+.second-card .trending-color-option:nth-child(4) {
+  background-color: #000000;
+}
+
 .trending-img {
   width: 21.5rem;
   height: 26rem;
-  background-image: url("../images/Trending-jacka.png");
+  background-image: url("/images/trending/Trending-jacket-green.png");
   background-size: cover;
   background-position: center;
+}
+
+.trending-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.trending-img.fading::after {
+  background-image: var(--fade-image);
+  opacity: 1;
 }
 
 .trending-info > h3 {
@@ -75,4 +116,8 @@
   background-color: var(--explore-button);
   font-size: var(--button-size);
   border: none;
+}
+
+.second-card .trending-img {
+  background-image: url("/images/trending/Trending-knitted-yellow.png");
 }
