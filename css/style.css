@@ -68,9 +68,13 @@ h3 {
 }
 
 h4 {
-
-font-size: var(--h4-size);
+  font-size: var(--h4-size);
 }
+
+h5 {
+  font-size: var(--h5-size);
+}
+
 p {
   font-size: var(--p-size);
 }
@@ -94,6 +98,5 @@ h5 {
 }    
 p {
   font-size: var(--p-desktop);
-
-}    
+};
 }
