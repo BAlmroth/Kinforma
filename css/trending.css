@@ -84,7 +84,7 @@
 .trending-img {
   width: 21.5rem;
   height: 26rem;
-  background-image: url("/images/trending/Trending-jacket-green.png");
+  background-image: url("../images/trending/Trending-jacket-green.png");
   background-size: cover;
   background-position: center;
 }
@@ -119,5 +119,5 @@
 }
 
 .second-card .trending-img {
-  background-image: url("/images/trending/Trending-knitted-yellow.png");
+  background-image: url("../images/trending/Trending-knitted-yellow.png");
 }
