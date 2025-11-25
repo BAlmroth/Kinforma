@@ -3,6 +3,6 @@
         <video autoplay muted loop>
             <source src="images/Kinforma.mp4" type="video/mp4">
         </video>
-        <img src="images/orange-logo.svg" alt="logo">
+        <img src="images/vitlogga.svg" alt="logo">
     </div>
 </section>

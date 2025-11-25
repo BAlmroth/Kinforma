@@ -2,7 +2,7 @@
 <footer>
     <div class="upper-foot">
         <div class="newsletter" id="newsletters">
-            <h2>Håll dig uppdaterad</h2>
+            <h4>HÅLL DIG UPPDATERAD</h4>
             <form action="#newsletters" method="post">
                 <div class="mail">
                     <input type="email" name="news" placeholder="epost*">
@@ -27,10 +27,24 @@
         <div class="links">
             <div class="link">
                 <h3>Kundservice</h3>
+                <div class="underlinks">
+                    <h3>Kontakta oss</h3>
+                    <h3>FAQ</h3>
+                    <h3>Hitta butik</h3>
+                    <h3>Leverans och frakt</h3>
+                    <h3>Returer</h3>
+
+                </div>
                 <button type="button">+</button>
+
             </div>
             <div class="link">
                 <h3>Kinforma</h3>
+                <div class="underlinks">
+                    <h3>Om Kinforma</h3>
+                    <h3>Hållbarhet</h3>
+                    <h3>Karriär</h3>
+                </div>
                 <button type="button">+</button>
             </div>
         </div>
