@@ -1,24 +1,47 @@
-.slogan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 8rem 0;
-    text-align: center;
-    line-height: 1.5;
+.slogan{
+    height: 410px;
+
+}
+.slogan-background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
     overflow: hidden;
-
-}
-
-#kinformaVideo {
     object-position: center;
+    position: relative;
+}
+.slogan-background img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Exakt centrerad */
+  z-index: 2; /* Ovanför videon */
+  width: 100px;
 
 }
-
+.slogan-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* Gör att videon täcker hela ytan */
+  object-position: center;  /* Centrerar videon */
+  z-index: 1;
+}
 @media (min-width: 768px) {
 
 .slogan {
-    height: 275px;
-    margin: 1.125rem 0 2rem;
+    height: 709px;
+}
+.slogan-background img {
+      top: 50%;
+      height: 254px;
 }
 
 }
