@@ -53,6 +53,8 @@
   width: 1.625rem;
   height: 1.625rem;
   border-radius: 50%;
+  border: none;
+  padding: 0;
   background-color: var(--circle-background);
 }
 
@@ -107,7 +109,6 @@
 
 .trending-info > h3 {
   text-transform: uppercase;
-  font-family: "Belleza", sans-serif;
 }
 
 .trending-button {
