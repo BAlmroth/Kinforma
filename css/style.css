@@ -12,6 +12,7 @@
   --collection-background: #aeaeae;
   --circle-background: #949494;
   --solar: #F90;
+  --pine: #6B6C40;
 
   /* font sizes */
 
@@ -19,7 +20,7 @@
   --h1-size: 64px;
   --h2-size: 44px;
   --h3-size: 28px;
-  --h4-size: 34px;
+  --h4-size: 32px;
   --h5-size: 20px;
   --p-size: 16px;
   --button-size: 14px;
@@ -34,6 +35,8 @@
 
   /* font weight */
   --regular-font-weight: 400;
+
+  --belleza: "Belleza", sans-serif;
 }
 
 .belleza-regular {
@@ -54,6 +57,19 @@ main {
   flex-direction: column;
 }
 
+button {
+  font-family: var(--belleza);
+  color: var(--pine);
+  border: 1px solid var(--pine);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;        
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+
+
 /* mobile */
 h1 {
   font-size: var(--h1-size);
@@ -68,9 +84,13 @@ h3 {
 }
 
 h4 {
-
-font-size: var(--h4-size);
+  font-size: var(--h4-size);
 }
+
+h5 {
+  font-size: var(--h5-size);
+}
+
 p {
   font-size: var(--p-size);
 }
@@ -94,6 +114,5 @@ h5 {
 }    
 p {
   font-size: var(--p-desktop);
-
-}    
+};
 }

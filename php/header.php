@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/slogan.css">
   <link rel="stylesheet" href="css/values.css">
   <link rel="stylesheet" href="css/tech.css">
+  <link rel="stylesheet" href="css/setting.css">
   <link rel="stylesheet" href="css/collection.css">
   <link rel="stylesheet" href="css/trending.css">
   <link rel="stylesheet" href="css/ai.css">
@@ -25,16 +26,43 @@
 <body>
   <header>
     <img class="logo" src="images/logo.svg" alt="logo">
-    <nav>
+    <nav class="nav">
       <a href="">
         <img class="profile" src="images/profile.svg" alt="profile icon">
       </a>
       <a href="">
         <img class="cart" src="images/cart.svg" alt="cart icon">
       </a>
-      <a href="">
-        <img class="hamburger" src="images/hamburger.svg" alt="hamburger icon">
-      </a>
+      <button class="menu-hamburger-btn" aria-label="Menu">
+        <img src="images/hamburger.svg" alt="hamburger menu icon">
+      </button>
+
+      <div class="menu">
+        <button class="menu-close-btn" aria-label="Close menu">
+          <img src="images/hamburger-close.svg" alt="Close menu">
+        </button>
+
+        <ul class="menu-primary-list">
+          <li>New arrivals</li>
+          <li>About Kinforma</li>
+          <li>Women's</li>
+          <li>Men's</li>
+          <li>Kinforma Circle</li>
+        </ul>
+
+        <ul class="menu-secondary-list">
+          <li>Log in</li>
+          <li>Customer Service</li>
+          <li>FAQ</li>
+          <li>Returns</li>
+          <li>Contact us</li>
+        </ul>
+
+        <div class="menu-language-wrapper">
+          <div class="menu-circle"></div>
+          <p>Change Language</p>
+        </div>
+      </div>
     </nav>
 
   </header>

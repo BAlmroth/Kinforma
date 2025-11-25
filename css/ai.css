@@ -30,15 +30,7 @@
   margin-bottom: 2rem;
 }
 
-.AI-content button {
-  display: inline-block;
-  background: #e6e6e6;
-  color: black;
-  padding: 14px 32px;
-  border-radius: 30px;
-  font-size: 1.1rem;
-  border: none;
-}
+
 
 @media (max-width: 768px) {
   .AI-container {
@@ -64,8 +56,6 @@
 
   .AI-content button {
     margin-top: 25px;
-    display: inline-block;
-    font-size: 1rem;
-    padding: 12px 28px;
+    font-size: 16px;
   }
 }

@@ -24,7 +24,7 @@
           </div>
           <div class="trending-info">
             <h3>JACKETS</h3>
-            <button type="button" class="trending-button">Explore</button>
+            <button type="button" class="trending-button">UTFORSKA <img src="images/dot.svg"></button>
           </div>
         </div>
 
@@ -49,7 +49,7 @@
           </div>
           <div class="trending-info">
             <h3>KNITTED</h3>
-            <button type="button" class="trending-button">Explore</button>
+            <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
 
@@ -64,7 +64,7 @@
           </div>
           <div class="trending-info">
             <h3>JACKETS</h3>
-            <button type="button" class="trending-button">Explore</button>
+            <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
 
@@ -79,7 +79,7 @@
           </div>
           <div class="trending-info">
             <h3>JACKETS</h3>
-            <button type="button" class="trending-button">Explore</button>
+            <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
 

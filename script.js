@@ -1,4 +1,32 @@
-// nav bar
+// Script for sliding menu
+const hamburgerBtn = document.querySelector(".menu-hamburger-btn");
+const mobileMenu = document.querySelector(".menu");
+const closeBtn = document.querySelector(".menu-close-btn");
+
+function closeMenu() {
+  mobileMenu.classList.remove("active");
+}
+
+hamburgerBtn.addEventListener("click", (e) => {
+  mobileMenu.classList.toggle("active");
+  e.stopPropagation();
+});
+
+closeBtn.addEventListener("click", () => {
+  closeMenu();
+});
+
+document.addEventListener("click", (e) => {
+  if (
+    mobileMenu.classList.contains("active") &&
+    !mobileMenu.contains(e.target) &&
+    e.target !== hamburgerBtn
+  ) {
+    closeMenu();
+  }
+});
+
+// script for trending carousel
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
   if (window.scrollY > 810) {
