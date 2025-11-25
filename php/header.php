@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<köp!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,6 +24,11 @@
 </head>
 
 <body>
+    <div class="top-banner">
+       <div class="banner-track">
+        <span>Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!  •  Prenumerera och få 15% på ditt första köp!</span>
+      </div>
+    </div>
   <header>
     <img class="logo" src="images/logo.svg" alt="logo">
     <nav>

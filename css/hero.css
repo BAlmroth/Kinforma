@@ -14,7 +14,8 @@
     background-size: 450%;
     background-repeat: no-repeat;
     background-position: 55% 100%;
-    margin-top: -88px;
+    margin-top: -112px;
+    z-index: -2000;
 }
 
 .hero-text {
