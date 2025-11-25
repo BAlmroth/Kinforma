@@ -12,4 +12,4 @@
             <button>UTFORSKA<img src="images/dot.svg"></button>
         </div>   
     </div>
-<section>
+</section>

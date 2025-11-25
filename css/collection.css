@@ -4,8 +4,8 @@
 }
 
 .collection-title {
-  padding-left: 2rem;
-  font-size: 32px;
+  padding-left: 1rem;
+  margin: 0 0 1rem 0;
 }
 
 .products {
@@ -91,10 +91,11 @@
   }
   .product h5 {
   margin: 0 0 3rem ;
-  font-size: 24px;
+
 }
 
 .collection-title {
-  font-size: 48px;
+  margin: 0;
+  padding-left: 2rem;
 }
 }
