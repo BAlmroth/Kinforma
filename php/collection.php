@@ -1,5 +1,5 @@
   <section class="collection">
-    <h2 class="collection-title">KOLLEKTIONEN</h2>
+    <h4 class="collection-title">KOLLEKTIONEN</h4>
 
     <div class="products">
       <div class="product">

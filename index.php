@@ -8,6 +8,7 @@ require __DIR__ . '/php/hero.php';
 require __DIR__ . '/php/slogan.php';
 require __DIR__ . '/php/values.php';
 require __DIR__ . '/php/tech.php';
+require __DIR__ . '/php/setting.php';
 require __DIR__ . '/php/collection.php';
 require __DIR__ . '/php/trending.php';
 require __DIR__ . '/php/ai.php';
