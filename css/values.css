@@ -36,7 +36,7 @@
 .value-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 3rem;
     align-items: center;
@@ -45,21 +45,22 @@
 }
 
 .sticker img {
-    height: 45px;
-    width: 45px;
+    height: 33px;
+    width: 33px;
 }
 .sticker span {
     font-size: 24px;
 }
 
+
 .sticker {
     color: #fff;
     padding: 0.689rem 1.378rem;
-    background: rgba(129, 165, 224, 0.213);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
+    background: rgba(129, 165, 224, 0.318);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius: 50px;
-    border: 1px solid #fff;
+    border: 0.689px solid #fff;
     box-shadow: 
     0 8px 32px rgba(255, 234, 234, 0.1),
     inset 0 1px 0 rgba(167, 173, 182, 0.289),
@@ -79,6 +80,10 @@
     border-radius: 55.09px;
 }
 
+    .right-sticker {
+        border-radius: 16.527px;
+    }
+
 @media (min-width: 768px) {
 
     .values {
@@ -90,7 +95,7 @@
     }
     .value {
         height: 100%;
-        width: 35vw;
+        width: 40vw;
         margin-right: 4rem;
     }
 
@@ -106,8 +111,14 @@
     }
     .sticker {
         color: #000000;
-        border: 1px solid #000000;
+        border: 0.689px solid #000000;
         background-color: transparent;
+        box-shadow: 
+        0 8px 32px rgba(130, 133, 139, 0.1),
+        inset 9px 16px 20px rgba(180, 185, 191, 0.289),
+        inset 0 -1px 0 rgba(170, 176, 180, 0.139),
+        inset 0 0 18px 9px rgba(255, 255, 255, 0.346);
+        
     }
 
 }

@@ -7,7 +7,7 @@
             </div>
           </div>
           <div class="value-info">
-            <div class="sticker">
+            <div class="sticker right-sticker">
               <img src="images/degree.svg" alt="">
               <span>-50°C</span>
             </div>
