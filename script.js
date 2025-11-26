@@ -88,28 +88,34 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // Script for switching colors
 document.addEventListener("DOMContentLoaded", () => {
-  const firstCard = document.querySelector(".first-card");
-  const img = firstCard.querySelector(".trending-img");
-  const colorButtons = firstCard.querySelectorAll(".trending-color-option");
+  const cards = document.querySelectorAll(".trending-item");
 
-  colorButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const color = btn.dataset.color;
+  cards.forEach((card) => {
+    const img = card.querySelector(".trending-img");
+    const colorButtons = card.querySelectorAll(".trending-color-option");
 
-      const newImages = [
-        `images/trending/${color}-jacket-left.png`,
-        `images/trending/${color}-jacket-left-3-4.png`,
-        `images/trending/${color}-jacket-front.png`,
-        `images/trending/${color}-jacket-right-3-4.png`,
-        `images/trending/${color}-jacket-right.png`,
-      ];
+    colorButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const color = btn.dataset.color;
 
-      img.dataset.images = JSON.stringify(newImages);
+        const type = card.classList.contains("first-card")
+          ? "jacket"
+          : "knitted";
 
-      img.dataset.default = `images/trending/${color}-jacket-front.png`;
-      img.style.backgroundImage = `url('images/trending/${color}-jacket-front.png')`;
+        const newImages = [
+          `images/trending/${color}-${type}-left.png`,
+          `images/trending/${color}-${type}-left-3-4.png`,
+          `images/trending/${color}-${type}-front.png`,
+          `images/trending/${color}-${type}-right-3-4.png`,
+          `images/trending/${color}-${type}-right.png`,
+        ];
 
-      img.currentIndex = -1;
+        img.dataset.images = JSON.stringify(newImages);
+        img.dataset.default = `images/trending/${color}-${type}-front.png`;
+        img.style.backgroundImage = `url('images/trending/${color}-${type}-front.png')`;
+
+        img.currentIndex = -1;
+      });
     });
   });
 });
