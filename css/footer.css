@@ -1,6 +1,6 @@
 footer {
     background-color: #D8E7F0;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 .upper-foot, .lower-foot, .links {
@@ -46,6 +46,7 @@ footer {
     flex-direction: row;
     gap: 1rem;
     margin: 2rem 0 0.5rem;
+    width: 100%;
 }
 
 footer button {
@@ -53,4 +54,45 @@ footer button {
     border: none;
     font-size: 25px;
     font-weight: 200;
+}
+
+.underlinks {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    footer {
+        padding: 2rem 4rem 0;
+    }
+    .upper-foot, .links{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        gap: 4rem;
+    }
+
+    .link {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .links button {
+        display: none;
+    }
+    .mail input {
+        width: 40vw;
+    }
+
+    .link h3, .socials h3  {
+        font-size: 24px;
+    }
+
+    .newsletter h4 {
+        margin-top: 0;
+    }
+    .underlinks {
+    display:block;
+}
 }

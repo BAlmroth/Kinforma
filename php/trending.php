@@ -7,9 +7,9 @@
         <div class="trending-item first-card">
           <div class="trending-image">
             <div class="trending-color-options">
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
+              <button class="trending-color-option" data-color="green"></button>
+              <button class="trending-color-option" data-color="orange"></button>
+              <button class="trending-color-option" data-color="black"></button>
             </div>
             <div class="trending-img"
               data-images='[
@@ -63,22 +63,7 @@
             <div class="trending-img"></div>
           </div>
           <div class="trending-info">
-            <h3>JACKETS</h3>
-            <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
-          </div>
-        </div>
-
-        <div class="trending-item">
-          <div class="trending-image">
-            <div class="trending-color-options">
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
-            </div>
-            <div class="trending-img"></div>
-          </div>
-          <div class="trending-info">
-            <h3>JACKETS</h3>
+            <h3>PENNA-FORMA</h3>
             <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
