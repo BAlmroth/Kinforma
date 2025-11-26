@@ -16,6 +16,8 @@
 
   /* font sizes */
 
+  letter-spacing: 0.066px;;
+
   /* mobile */
   --h1-size: 64px;
   --h2-size: 44px;
@@ -97,6 +99,7 @@ h3 {
 
 h4 {
   font-size: var(--h4-size);
+  letter-spacing: 0.072px;
 }
 
 h5 {
@@ -108,18 +111,19 @@ p {
 }
 
 @media (min-width: 768px) {
-
-h1 {
-  font-size: var(--h1-desktop);
-}    
-h2 {
-  font-size: var(--h2-desktop);
-}    
-h3 {
-  font-size: var(--h3-desktop);
-}    
-h4 {
-  font-size: var(--h4-desktop);
+  
+  h1 {
+    font-size: var(--h1-desktop);
+  }    
+  h2 {
+    font-size: var(--h2-desktop);
+  }    
+  h3 {
+    font-size: var(--h3-desktop);
+  }    
+  h4 {
+    font-size: var(--h4-desktop);
+    line-height: 56px;
 }    
 h5 {
   font-size: var(--h5-desktop);
