@@ -30,10 +30,12 @@
         <div class="trending-item second-card">
           <div class="trending-image">
             <div class="trending-color-options">
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
-              <div class="trending-color-option"></div>
+              <div class="trending-color-options">
+                <button class="trending-color-option" data-color="yellow"></button>
+                <button class="trending-color-option" data-color="green"></button>
+                <button class="trending-color-option" data-color="blue"></button>
+                <button class="trending-color-option" data-color="black"></button>
+              </div>
             </div>
             <div class="trending-img"
               data-images='[
