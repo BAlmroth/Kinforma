@@ -26,7 +26,10 @@
         </div>
         <div class="links">
             <div class="link">
-                <h3>Kundservice</h3>
+                <div class="link-top">
+                    <h3>Kundservice</h3>
+                    <button class="plus" type="button">+</button>
+                </div>
                 <div class="underlinks">
                     <h3>Kontakta oss</h3>
                     <h3>FAQ</h3>
@@ -35,17 +38,18 @@
                     <h3>Returer</h3>
 
                 </div>
-                <button type="button">+</button>
 
             </div>
             <div class="link">
+                <div class="link-top">
                 <h3>Kinforma</h3>
+                <button class="plus" type="button">+</button>
+                </div>
                 <div class="underlinks">
                     <h3>Om Kinforma</h3>
                     <h3>Hållbarhet</h3>
                     <h3>Karriär</h3>
                 </div>
-                <button type="button">+</button>
             </div>
         </div>
         <div class="socials">
@@ -57,7 +61,7 @@
     </div>
     <div class="lower-foot">
         <div class="payments">
-            <h3>SE/SEK</h3>
+            <h5>SE/SEK</h5>
             <img src="images/glob.svg" alt="sek icon">
             <img src="images/klarna.svg" alt="klarna icon">
             <img src="images/visa.svg" alt="visa icon">

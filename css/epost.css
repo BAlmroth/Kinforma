@@ -7,7 +7,7 @@
     text-align: center;
     padding: 1rem;
     margin: 0;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -15,70 +15,79 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
-
-.epost h2 {
-
-    padding: 1rem;
-}
-
 
 .epost-input {
-    margin-top: 1.5rem;
-    padding: 1rem;
+    margin: 0 1rem;
     width: 100%;
+
+
+}
+
+.form {
+    padding: 1rem 1rem 0;
+    margin: 0 1rem;
+    background: rgba(255, 255, 255, 0.117);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 60px 30px rgba(255, 255, 255, 3);
 }
 
 .epost input {
     padding: 0.8rem;
-    width: 80%;
+    width: 100%;
     max-width: 300px;
-    margin-bottom: 0.8rem;
     border-radius: 20px;
-    border: none;
+    border: 0.5px solid black ;
     color: black;
+    text-align: center;
 }
 
-
-.epost ul{
-  
+.epost-ul {
+    margin-bottom: 4rem;
     
-    margin: 3rem 3rem 0;
+}
+.epost ul{
+    margin: 0rem 2rem;
     text-align: start;
-    max-width: 400px;
-    padding: 16px 0px 0px 40px;
 
-    background: rgba(136, 136, 136, 0.339);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    /* border-radius: 30px; */
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 18px 9px rgba(255, 255, 255, 0.2);
-  position: relative;
-  overflow: hidden;
+    padding: 1rem 0 0 2rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .epost li {
-    margin-bottom: 1rem;
-    font-weight: var(--regular-font-weight);
+
+    font-size: var(--p-size);
 }
 
 .epost button {
-    margin: 0 auto;
+    margin: 1rem 0 3rem 0;
     border: none;
     padding: 0.5rem 1rem 0.5rem 2rem;
     gap: 0.625rem;
     font-size: 18px;
-
+}
+.send button:hover {
+    border: none;
+    color: #000;
 }
 
-
-.epost h3 {
+.epost h2 {
     margin: 3rem 0 1rem;
+}
+.epost h5 {
+    margin: 0 0 1rem ;
+}
+.epost p {
+    margin: 0 1rem;
+    padding: 1rem;
 }
 
 .epost a {
@@ -97,3 +106,41 @@
     border-radius: 20px;
 }
 
+@media (min-width: 768px) {
+
+    .epost {
+        padding: 4.688rem 6.563rem;
+        background-position: left 60%;
+        background-size: 150%;
+
+    }
+
+    .epost h2 {
+        margin-bottom: 4rem;
+    }
+
+    .epost p {
+        width: 52vw;
+        text-align: left;
+    }
+    .epost li {
+        font-size: var(--p-desktop);
+    }
+
+    .epost-ul {
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form {
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    }
+    .epost button {
+        border: 1px solid var(--pine);
+    }
+}
