@@ -1,19 +1,48 @@
 .tech {
-    background-image: url("../images/fabric.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;  
-    height: 582px;
+
+  height: 100vh;           
+  background-color: black;   /* svart under videon */
+    height: 582px; 
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: end;
     margin: 70px 0 4rem;
+    align-items: flex-end; 
+    position: relative;
+    z-index: 100;
+    
+
 }
+.tech-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.tech-background video {
+    position: absolute;
+    top: 0;
+    left: -100;
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    z-index: -100;
+    transform: scale(1.3);
+    transform-origin: center;
+}
+
+
 
 .tech-content {
     margin: 1rem 1rem 3rem;
     transition: margin 2s ease;
+    z-index: 1;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
 
 }
 
@@ -47,12 +76,23 @@
     }
 
     .tech h2 {
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
 
-    .tech h3 {
+    .tech h5 {
         width: 90%;
         margin: 0 0 2rem 0;
+        max-width: 666px;
     }
+
+    .tech-background video {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    transform: scale(1);
+}
+
 
 }
