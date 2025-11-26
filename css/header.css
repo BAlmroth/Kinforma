@@ -115,6 +115,15 @@ header.scrolled {
   background-position: center;
 }
 
+
+header button:hover {
+  border: none;
+}
+
+header button:active {
+  background-color: transparent;
+}
+
 @media (min-width: 768px) {
   .menu {
     right: -40rem;
