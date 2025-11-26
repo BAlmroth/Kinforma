@@ -8,14 +8,29 @@ footer {
     flex-direction: column;
 
 }
+    .link h3, .socials h3  {
+        font-size: 18px;
+    }
 
 .links {
     margin-bottom: 1rem;
 }
-.link, .copy{
+ .copy{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.link-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link button {
@@ -25,6 +40,17 @@ footer {
 .newsletter {
     margin-bottom: 5rem;
 }
+
+footer button:hover {
+  color: #000000;
+  border: none;
+}
+footer button:active {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
 .mail input {
     background-color: transparent;
     box-shadow: none;
@@ -45,8 +71,16 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin: 2rem 0 0.5rem;
+    margin: 2rem 0 1rem;
     width: 100%;
+}
+
+.payments img {
+    max-height: 40px;
+}
+
+.payments h5 {
+    margin: 0;
 }
 
 footer button {
@@ -54,10 +88,22 @@ footer button {
     border: none;
     font-size: 25px;
     font-weight: 200;
+    color: #4f4f4f;
 }
 
+
 .underlinks {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    background-color: #868b8e1f; /* light blue-ish distinct background */
+    padding-left: 0.5rem;
+    border-radius: 4px;
+
+}
+.underlinks.show {
+    padding: 0.5rem;
+    max-height: 300px; /* big enough for content */
 }
 
 @media (min-width: 768px) {
@@ -76,11 +122,17 @@ footer button {
 
     .link {
         flex-direction: column;
-        justify-content: flex-start;
+
     }
+        .link-top {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
     .links button {
         display: none;
     }
+
     .mail input {
         width: 40vw;
     }
@@ -92,7 +144,16 @@ footer button {
     .newsletter h4 {
         margin-top: 0;
     }
-    .underlinks {
-    display:block;
-}
+
+    .copy {
+        margin-bottom: 1rem;
+    }
+
+        .underlinks {
+        max-height: none;
+        overflow: visible;
+        padding: 0;
+        background: none;
+    }
+
 }

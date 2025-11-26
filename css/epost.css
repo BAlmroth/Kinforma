@@ -74,6 +74,10 @@
     gap: 0.625rem;
     font-size: 18px;
 }
+.send button:hover {
+    border: none;
+    color: #000;
+}
 
 .epost h2 {
     margin: 3rem 0 1rem;

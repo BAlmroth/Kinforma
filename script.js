@@ -43,3 +43,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// footer links
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".links .plus");
+
+    buttons.forEach(btn => {
+        btn.addEventListener("click", () => {
+
+            if (window.innerWidth >= 768) return;
+
+            const parent = btn.closest(".link");
+            const underlinks = parent.querySelector(".underlinks");
+
+            underlinks.classList.toggle("show");
+
+            btn.textContent = underlinks.classList.contains("show") ? "–" : "+";
+        });
+    });
+});
