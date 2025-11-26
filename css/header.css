@@ -26,17 +26,13 @@ nav img {
 /* scroll -> byt färg */
 header.scrolled {
   background-color: white;
-  color: black;
-}
-
-header.scrolled img {
-  filter: invert(1);
 }
 
 /* Menu section */
 
 .menu-hamburger-btn {
   background: none;
+  padding: 0;
   border: none;
   cursor: pointer;
 }
@@ -51,7 +47,8 @@ header.scrolled img {
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  justify-content: space-between;
+  padding: 2rem 2rem 5rem;
   transition: right 0.3s ease;
   z-index: 12;
 }
@@ -60,12 +57,20 @@ header.scrolled img {
   right: 0;
 }
 
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
 .menu .menu-close-btn {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 /* Byt inte färg när man scrollar */
@@ -84,12 +89,16 @@ header.scrolled img {
 .menu-primary-list li {
   font-size: var(--h3-size);
   font-weight: 300;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .menu .menu-secondary-list {
   font-size: var(--h5-size);
   padding: 5rem 0;
+}
+
+.menu-secondary-list li:nth-child(2) {
+  margin-bottom: 1rem;
 }
 
 .menu-language-wrapper {
@@ -102,7 +111,8 @@ header.scrolled img {
   width: 1.625rem;
   height: 1.625rem;
   border-radius: 50%;
-  background-color: var(--img-box);
+  background-image: url(../images/change-language-swedish.svg);
+  background-position: center;
 }
 
 @media (min-width: 768px) {
@@ -128,43 +138,40 @@ header.scrolled img {
   }
 }
 
-
-
 .top-banner {
-    width: 100%;
-    height: 2.5rem;
-    overflow: hidden;
-    white-space: nowrap;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 0.5rem 0;
-    font-size: 18px;
-    top: 0;
-    left: 0;
-    z-index: 2000;
+  width: 100%;
+  height: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  z-index: 2000;
 }
 
 .banner-track {
-    display: inline-block;
-    padding-right: 10%;
-    animation: banner-scroll 16s linear infinite;
-    font-size: 14px;
-    letter-spacing: 1px;
+  display: inline-block;
+  padding-right: 10%;
+  animation: banner-scroll 16s linear infinite;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 @keyframes banner-scroll {
-    0% {
-        transform: translateX(-20%);
-    }
-    100% {
-        transform: translateX(-1%);
-    }
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(-1%);
+  }
 }
 
-
 @media (min-width: 768px) {
-    .banner-track {
-        font-size: 20px;
-    }
+  .banner-track {
+    font-size: 20px;
+  }
 }
