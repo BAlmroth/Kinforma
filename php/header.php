@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="css/setting.css">
   <link rel="stylesheet" href="css/collection.css">
   <link rel="stylesheet" href="css/trending.css">
-  <link rel="stylesheet" href="css/ai.css">
   <link rel="stylesheet" href="css/epost.css">
   <link rel="stylesheet" href="css/footer.css">
 

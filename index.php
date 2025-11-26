@@ -11,7 +11,6 @@ require __DIR__ . '/php/tech.php';
 require __DIR__ . '/php/setting.php';
 require __DIR__ . '/php/collection.php';
 require __DIR__ . '/php/trending.php';
-require __DIR__ . '/php/ai.php';
 require __DIR__ . '/php/epost.php';
 ?>
 </main>
