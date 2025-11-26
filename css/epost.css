@@ -42,7 +42,7 @@
 .epost input {
     padding: 0.8rem;
     width: 100%;
-    max-width: 300px;
+    max-width: 650px;
     border-radius: 20px;
     border: 0.5px solid black ;
     color: black;
@@ -73,6 +73,7 @@
     padding: 0.5rem 1rem 0.5rem 2rem;
     gap: 0.625rem;
     font-size: 18px;
+    color: #000;
 }
 .send button:hover {
     border: none;
@@ -141,6 +142,6 @@
     -webkit-backdrop-filter: none;
     }
     .epost button {
-        border: 1px solid var(--pine);
+        border: 1px solid #000;
     }
 }

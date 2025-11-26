@@ -9,7 +9,7 @@
     background-position: 65%;
     height: 874px;
     min-width: 402px;
-    height: 100vh;
+
 }
 
 .value {
@@ -29,6 +29,7 @@
 }
  .value-text p {
     margin: 2rem 0 0 0;
+    line-height: 22px;
  }
  .value-text h4 {
     margin: 0;
@@ -120,6 +121,10 @@
         inset 0 -1px 0 rgba(170, 176, 180, 0.139),
         inset 0 0 18px 9px rgba(255, 255, 255, 0.346);
         
+    }
+
+     .value-text p {
+        line-height: normal;
     }
 
 }
