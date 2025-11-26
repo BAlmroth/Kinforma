@@ -96,14 +96,14 @@ footer button {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease;
-    background-color: #868b8e1f; /* light blue-ish distinct background */
+    background-color: #868b8e1f;
     padding-left: 0.5rem;
     border-radius: 4px;
 
 }
 .underlinks.show {
     padding: 0.5rem;
-    max-height: 300px; /* big enough for content */
+    max-height: 300px;
 }
 
 @media (min-width: 768px) {
