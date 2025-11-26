@@ -53,6 +53,8 @@
   width: 1.625rem;
   height: 1.625rem;
   border-radius: 50%;
+  border: none;
+  padding: 0;
   background-color: var(--circle-background);
 }
 
@@ -84,7 +86,7 @@
 .trending-img {
   width: 21.5rem;
   height: 26rem;
-  background-image: url("../images/trending/Trending-jacket-green.png");
+  background-image: url("../images/trending/green-jacket-front.png");
   background-size: cover;
   background-position: center;
 }
@@ -107,7 +109,6 @@
 
 .trending-info > h3 {
   text-transform: uppercase;
-  font-family: "Belleza", sans-serif;
 }
 
 .trending-button {
@@ -115,6 +116,23 @@
   font-size: 14px;
 }
 
+.first-card .trending-img {
+  background-position: center 30%;
+}
+
 .second-card .trending-img {
-  background-image: url("../images/trending/Trending-knitted-yellow.png");
+  background-image: url("../images/trending/yellow-knitted-front.png");
+  background-size: 90%;
+}
+
+.third-card .trending-img {
+  background-image: url("../images/trending/penna-forma.png");
+}
+
+.fourth-card .trending-img {
+  background-image: url("../images/trending/face-cream-front.png");
+}
+
+.fifth-card .trending-img {
+  background-image: url("../images/trending/sunglasses.png");
 }
