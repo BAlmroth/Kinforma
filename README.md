@@ -11,3 +11,11 @@ This is the landing page for **Kinforma**, a brand-new fashion brand showcasing 
 ## Creators
 
 This project was created by **Benita Almroth** (BAlmroth) and **Robin Andersson** (danrobinandersson).
+
+## Languages
+
+This project has been created with the programming languages 
+- HTML
+-Javascript
+-PHP
+-CSS

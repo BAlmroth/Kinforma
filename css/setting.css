@@ -56,6 +56,13 @@
     }
 
     .right-setting, .left-setting {
-        min-height: 1024px;
+        /* height: 200px;
+        aspect-ratio: 3/4; */
+        height: 90vh;
+        
+    }
+
+    .right-setting {
+        background-position: center 20%;
     }
 }

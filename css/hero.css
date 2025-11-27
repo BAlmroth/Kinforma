@@ -10,7 +10,7 @@
     text-align: center;
     justify-content: space-between;
     gap: 1rem;
-    background-image: url("../images/mobilbground.png");
+    background-image: url("../images/herobground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -58,7 +58,7 @@
 @media (min-width: 768px) {
 
     .hero h1 {
-        margin: 4rem 0 0;
+        margin: 1rem 0 0;
     }
 
     .hero h3 {
@@ -76,6 +76,7 @@
 
     .hero {
         background-image: url("../images/herobground.png");
+        background-position: bottom;
     }
 
     .hero-text {
