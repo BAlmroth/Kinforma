@@ -22,7 +22,7 @@
             </div>
           </div>
           <div class="trending-info">
-            <h3>JACKETS</h3>
+            <h3>JACKOR</h3>
             <button type="button" class="trending-button">UTFORSKA <img src="images/dot.svg"></button>
           </div>
         </div>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="trending-info">
-            <h3>KNITTED</h3>
+            <h3>STICKAT</h3>
             <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
@@ -70,7 +70,7 @@
             </div>
           </div>
           <div class="trending-info">
-            <h3>MOISTURISE CREAM</h3>
+            <h3>HUDKRÄM</h3>
             <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="trending-info">
-            <h3>SUNGLASSES</h3>
+            <h3>GLASÖGON</h3>
             <button type="button" class="trending-button">UTFORSKA<img src="images/dot.svg"></button>
           </div>
         </div>
