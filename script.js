@@ -7,7 +7,7 @@ function closeMenu() {
   mobileMenu.classList.remove("active");
 }
 
-//toggle mobile menu
+//toggle menu
 hamburgerBtn.addEventListener("click", (e) => {
   mobileMenu.classList.toggle("active");
   e.stopPropagation();
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
         img.style.backgroundImage = `url('${images[index]}')`;
       }
     });
-
+    // if you dont hover the product image -> go back to default picture
     img.addEventListener("mouseleave", () => {
       const defaultImg = img.dataset.default || "";
       img.style.backgroundImage = defaultImg ? `url('${defaultImg}')` : "";
