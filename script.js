@@ -7,11 +7,13 @@ function closeMenu() {
   mobileMenu.classList.remove("active");
 }
 
+//toggle mobile menu
 hamburgerBtn.addEventListener("click", (e) => {
   mobileMenu.classList.toggle("active");
   e.stopPropagation();
 });
 
+ // Close mobile menu on click
 closeBtn.addEventListener("click", () => {
   closeMenu();
 });
@@ -43,10 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
   items.forEach((img) => {
     let currentIndex = -1;
 
+    //product images consists of three differrent images, that show depending on where the mouse is hovering on the product
     img.addEventListener("mousemove", (e) => {
       const images = JSON.parse(img.dataset.images);
       const frameCount = images.length;
 
+      //calculate where mouse is
       const rect = img.getBoundingClientRect();
       const x = e.clientX - rect.left;
       const width = rect.width;
